@@ -1,1 +1,32 @@
-# firebase-auth-app-backend
+Firebase Authentication Backend
+This is the backend Java application for a Firebase authentication app. It provides GraphQL APIs for user authentication using Firebase Authentication. The application is built with Spring Boot and communicates with Firebase to manage user authentication and MongoDB to manage user data.
+
+Features
+User Authentication: Implement sign-up, and sign-in functionalities.
+Database Interaction: Save and retrieve user's authentication data from Firebase Firestore and user's personal data to/from MongoDB. 
+
+Technologies Used
+Java
+Spring Boot
+Firebase Authentication
+Firebase Firestore
+MongoDB 
+
+Getting Started
+To run the application locally, follow these steps:
+
+Clone this repository.
+Set up your Firebase project and add the necessary credentials to the application in FirebaseCofig.java file.
+Set up your MongoDB account and add the necessary credentials to the application.properties file.
+
+Build and run the application using Gradle on your preferred IDE (I used STS-4.21.1).
+
+Usage
+Ensure the backend is running.
+Use the frontend application (https://github.com/lokendra-singh-rao/firebase-auth-app-frontend) to interact with the authentication APIs.
+
+Contributors
+Lokendra Singh Rao (https://github.com/lokendra-singh-rao/)
+
+
+Feel free to customize this repo with more specific details about your project, such as installation instructions, API documentation, or additional features.
