@@ -1,0 +1,28 @@
+schema {
+	query : Query
+	mutation : Mutation
+}
+
+type Query {
+	signInUser : String
+	getUserData : UserDetailsModel
+}
+
+type Mutation {	
+    signUpUser(fullname : String!, email : String!) : String
+}
+
+type UserDetailsModel {
+    uid : String
+    fullname : String
+    email : String
+    accountStatus : AccountStatus
+    lastLogin : String
+    createdAt : String
+}
+
+enum AccountStatus {
+	ACTIVE
+	INACTIVE
+	SUSPENDED
+}
