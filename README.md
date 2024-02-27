@@ -1,4 +1,4 @@
-# Firebase Authentication Backend
+# Firebase Authentication Using Springboot Java and ReactJs
 This is the backend Java application for a Firebase authentication app. It provides GraphQL APIs for user authentication using Firebase Authentication. The application is built with Spring Boot and communicates with Firebase to manage user authentication and MongoDB to manage user data.
 
 
